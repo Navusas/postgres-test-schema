@@ -10,7 +10,7 @@ This is just a combination of random schemas, which are perfect for your perform
 
 - Pagila
 - AdventureWorks _(caveat: schema only, no data)_
-- Table with 1600 columns
+- Table with 1600 columns _(max in PostgreSQL)_
 - Schema with > 100 tables
 
 
