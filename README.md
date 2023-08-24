@@ -21,7 +21,7 @@ This is just a combination of random schemas, which are perfect for your perform
 git clone git@github.com:Navusas/postgres-test-schema.git
 cd postgres-test-schema/
 
-## Use docker-compose#
+## Use docker-compose
 docker-compose up
 ```
 
@@ -34,6 +34,10 @@ Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=123456
 Alternatively, you can run it using Docker:
 
 ```bash
+## Clone the repo
+git clone git@github.com:Navusas/postgres-test-schema.git
+cd postgres-test-schema/
+
 # Create volume
 docker volume create pgdata
 # Run container
